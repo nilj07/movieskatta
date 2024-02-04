@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div>
+            <button onclick="home()">
+                <option style="color: rgb(60, 215, 60);" value="">HOME</option>
+            </button>
+            <button onclick="bollywood()">
+                <option value="">BOLLYWOOD</option>
+            </button>
+            <button onclick="Hollywood()">
+                <option value="">HOLLYWOOD</option>
+            </button>
+            <button>
+                <option value="">TOLLYWOOD</option>
+            </button>
+            <button>
+                <option value="">WEB</option>
+            </button>
+            <button>
+                <option value="">MARATHI</option>
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <img src="bolly-back.jpg" alt="">
+    </div>
+<div class="main">    
+    <div class="main1">
+        <button onclick="bollywood()">
+            <img id="img" class="button" src="bollywood.jpeg" alt="">
+        </button>
+        <button onclick="Hollywood()">
+            <img id="img" src="hollywood.jpeg" alt="">
+        </button>
+    </div>
+    <div class="main2">
+        <button>
+            <img id="img" class="button" src="thumbnail.png" alt="">
+        </button>
+        <button>
+            <img id="img" src="thumbnail.png" alt="">
+        </button>
+    </div>
+</div>
+
+
+<script src="new.js"></script>
+</body>
+
+</html>
