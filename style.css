@@ -1,0 +1,140 @@
+*{
+    font-family: poppins, arial;
+}
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.header {
+    height: 80px;
+    background-color: rgb(1, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header button {
+    margin-top: 15px;
+    height: 50px;
+    margin-right: 50px;
+    background-color: transparent;
+    color: white;
+    font-family: poppins, arial;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.header button:hover {
+    color: rgb(60, 215, 60);
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.main1 button {
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 100px;
+
+    #img {
+        height: 250px;
+        width: 400px;
+        border-radius: 10px;
+    }
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main2 button {
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 100px;
+
+    #img {
+        height: 250px;
+        width: 400px;
+        border-radius: 10px;
+    }
+}
+
+.main #img:hover {
+    height: 255px;
+    width: 405px;
+}
+
+/* Bollywood tab */
+
+
+.container img{
+    height: 109vh;
+    position: absolute;
+    z-index: -1;
+    filter: opacity(25%);
+}
+.overlay-text h1 {
+    display: flex;
+    flex: 3;
+    color: white;
+    justify-content: center;
+    font-size: 70px;
+    margin-top: 0;
+}
+.movies-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.movies-section button, img{
+    height: 200px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.movies-section button{
+    margin-bottom: 100px;
+}
+.movies-section img:hover{
+    height: 205px;
+    
+}
+.movies-section h2{
+    color: white;
+}
+
+/* movie blog page */
+
+.movie-background img{
+    display: flex;
+    opacity: 30%;
+    height: 123.3vh;
+    z-index: -1;
+    position: absolute;
+}
+.blog{
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.blog h1{
+    font-size: 100px;
+    margin-bottom: 200px;
+}
+.blog p{
+    display: flex;
+    flex-wrap: wrap;
+}
